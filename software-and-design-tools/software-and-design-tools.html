@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Анализ Медицинских Изображений</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+</head>
+<body style="background-color: #031036;">
+    <header>
+        <h1 align="left">
+            &nbsp <a href="../index.html"; style="color: #afbff1"> MedImage </a><strong> Компьютерная Обработка Медицинских Изображений </strong>
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../products/products.html">Продукты</a></li>
+            <li><a href="../software-and-design-tools/software-and-design-tools.html"> Программные Средства Постобработки Изображений</a></li>
+            <li><a href="../applications-and-solutions/applications-and-solutions.html">&nbsp &nbsp &nbsp &nbsp Средства Сегментации</a></li>
+            <li><a href="../support-and-training/support-and-training.html">&nbsp Средства Алгоритмической Поддержки</a></li>
+            <li><a href="../contact-us/contact-us.html"> Контакты</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        table, th, td {
+            table-layout: fixed; /* Ensures equal column widths */
+            width: 100%; /* Table occupies full width of its parent */
+
+            margin: 1px;
+            border: 1px; /*solid black;*/
+            border-collapse: collapse;
+            padding: 2px;
+        }
+
+        td {
+            padding-right: 1px; /* Apply padding to the right of all td elements */
+        }
+    </style>
+
+    <table>
+        <tr>
+            <th> <h2><a href="scrolling.html" style="color: #afbff1;" id="#SDC" ;>Аксиальная, сагиттальная и коронарная прокрутка</a></h2> </th>
+            <th> <h2><a href="mpr.html" style="color: #afbff1;" id="#SDC" ;>Мультипланарные реконструкции (MPR) </a></h2> </th>
+            <th> <h2><a href="cmpr.html" style="color: #afbff1;" id="#SDC" ;>Изогнутые мултипланарные реконструкции (CMPR) </a></h2> </th>
+        </tr>
+        <tr>
+            <td><p>Набор синхронизированных инструментов для первичного анализа трёхмерных изображений.</p></td>
+            <td><p>
+                    Набор инструментов для построения секущих плоскостей объёмных изображений, реконструированных из первичного стека аксиальных срезов
+                    путём интерполяции.
+                </p>
+            </td>
+            <td><p>Набор инструментов для построения криволинейных секущих поверхностей объёмных изображений.</p></td>
+        </tr>
+    </table>
+    <br />
+
+    <table>
+        <tr>
+            <th><h2><a href="mip.html" style="color: #afbff1;" id="#SDC" ;>Проекции максимальной интенсивности (MIP) </a></h2></th>
+            <th><h2><a href="vr.html" style="color: #afbff1;" id="#SDC" ;>Трехмерный объемный рендеринг (VR) </a></h2></th>
+            <th><h2><a href="ve.html" style="color: #afbff1;" id="#SDC" ;>Виртуальная эндоскопия (VE) </a></h2></th>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    Набор инструментов для построения двумерного проекционного изображения, составленного из точек (вокселей) самой высокой
+                    интенсивности, лежащих на проекционных линиях, проходящих через выбранный трёхмерный объём.
+                </p>
+            </td>
+            <td>
+                <p>
+                    Набор инструментов для создания и анализа цветного пространственного изображения путём
+                    обработки плотностей вокселей объёмных данных в соответствии с информацией о типах тканей в исходном КТ.
+                </p>
+            </td>
+            <td>
+                <p>
+                    Набор инструментов для визуализации внутренней поверхности стенки артерии, примыкающих к ней структур низкой плотности
+                    и кальция.
+                </p>
+            </td>
+        </tr>
+    </table>
+    <br />
+
+    <div>
+        <!-- class="wrapB2">-->
+        <table class="centered-table">
+            <tr>
+                <th><h2><a href="va.html" style="color: #afbff1;" id="#SDC" ;>Отслеживание и анализ сосудов (VA) </a></h2></th>
+                <th>
+                    <h2>
+                        <a href="CalciumScore.html" style="color: #afbff1;" id="#SDC" ;>
+                            Автоматическая и полуавтоматическая количественная оценка коронарного кальция
+                        </a>
+                    </h2>
+                </th>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Отслеживание сосудов - это быстрый программный алгоритм
+                        сегментации сосудов, значительно упрощающий задачу постобработки и анализа патологий.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Количественная оценка коронарного кальция - один изважнейших диагностических методов оценки сердечно-сосудистого риска.
+                    </p>
+                </td>
+
+            </tr>
+        </table>
+        <br />
+    </div>
+    <br />
+
+    <footer>
+        <p style="color: #2a2a2a;  font-size: 1.3em; line-height: 1.2;"> ©Copyright 2025 by MedImage.</p>
+        <p style="color: #2a2a2a;  font-size: 1.3em; line-height: 1.2;">
+            Согласно Федеральному закону № 152-ФЗ «О персональных данных» и Статье 152 Гражданского кодекса РФ,
+            все 3D-реконструкции и прочие изображения, визуализации и другие материалы, приводимые на этом сайте,
+            были получены с помощью обработки сырых данных КТ, прошли процедуру полного обезличивания,
+            исключающую любую возможность идентификации, и демонстрируются
+            исключительно в научных целях для иллюстрации возможностей инновационных методов анализа и постобработки изображений.
+        </p>
+    </footer>
+
+</body>
+</html>
